@@ -1,0 +1,17 @@
+E:\Visual Studio Projects\C#\Testing\WinForms_RNet_testing\WinForms_RNet_testing\bin\Debug\WinForms_RNet_testing.exe.config
+E:\Visual Studio Projects\C#\Testing\WinForms_RNet_testing\WinForms_RNet_testing\bin\Debug\WinForms_RNet_testing.exe
+E:\Visual Studio Projects\C#\Testing\WinForms_RNet_testing\WinForms_RNet_testing\bin\Debug\WinForms_RNet_testing.pdb
+E:\Visual Studio Projects\C#\Testing\WinForms_RNet_testing\WinForms_RNet_testing\bin\Debug\DynamicInterop.dll
+E:\Visual Studio Projects\C#\Testing\WinForms_RNet_testing\WinForms_RNet_testing\bin\Debug\RDotNet.dll
+E:\Visual Studio Projects\C#\Testing\WinForms_RNet_testing\WinForms_RNet_testing\bin\Debug\RDotNet.NativeLibrary.dll
+E:\Visual Studio Projects\C#\Testing\WinForms_RNet_testing\WinForms_RNet_testing\bin\Debug\DynamicInterop.xml
+E:\Visual Studio Projects\C#\Testing\WinForms_RNet_testing\WinForms_RNet_testing\bin\Debug\RDotNet.xml
+E:\Visual Studio Projects\C#\Testing\WinForms_RNet_testing\WinForms_RNet_testing\bin\Debug\RDotNet.NativeLibrary.xml
+E:\Visual Studio Projects\C#\Testing\WinForms_RNet_testing\WinForms_RNet_testing\obj\Debug\WinForms_RNet_testing.csprojResolveAssemblyReference.cache
+E:\Visual Studio Projects\C#\Testing\WinForms_RNet_testing\WinForms_RNet_testing\obj\Debug\WinForms_RNet_testing.Form_RNET.resources
+E:\Visual Studio Projects\C#\Testing\WinForms_RNet_testing\WinForms_RNet_testing\obj\Debug\WinForms_RNet_testing.Properties.Resources.resources
+E:\Visual Studio Projects\C#\Testing\WinForms_RNet_testing\WinForms_RNet_testing\obj\Debug\WinForms_RNet_testing.csproj.GenerateResource.Cache
+E:\Visual Studio Projects\C#\Testing\WinForms_RNet_testing\WinForms_RNet_testing\obj\Debug\WinForms_RNet_testing.exe
+E:\Visual Studio Projects\C#\Testing\WinForms_RNet_testing\WinForms_RNet_testing\obj\Debug\WinForms_RNet_testing.pdb
+E:\Visual Studio Projects\C#\Testing\WinForms_RNet_testing\WinForms_RNet_testing\bin\Debug\RDotNet.Graphics.dll
+E:\Visual Studio Projects\C#\Testing\WinForms_RNet_testing\WinForms_RNet_testing\bin\Debug\RDotNet.Graphics.xml

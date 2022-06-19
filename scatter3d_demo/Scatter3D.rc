@@ -1,0 +1,219 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Scatter3D.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Scatter3D.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SCATTER3D_DIALOG DIALOGEX 0, 0, 382, 297
+STYLE WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "3D ScatterGraph"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,276,34,14
+    CONTROL         "",IDC_GRAPH_TOPLEFT,"Static",SS_BLACKFRAME | NOT 
+                    WS_VISIBLE,106,7,33,33
+    CONTROL         "Ortho",IDC_PROJ_TYPE,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,14,39,40,8
+    CONTROL         "Perspective",IDC_PROJ_TYPE2,"Button",BS_AUTORADIOBUTTON,
+                    14,49,52,8
+    GROUPBOX        "Projection",IDC_STATIC,7,28,89,33,WS_GROUP
+    CONTROL         "",IDC_BACK_COLOUR,"Button",BS_OWNERDRAW | WS_TABSTOP,32,
+                    75,12,8
+    LTEXT           "Colours",IDC_STATIC,37,65,24,8
+    EDITTEXT        IDC_SYMBOL_SIZE,51,87,15,13,ES_AUTOHSCROLL
+    LTEXT           "Symbol size",IDC_STATIC,7,89,38,8
+    CONTROL         "Mouse rotate",IDC_MOUSE_ROTATE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,103,57,10
+    GROUPBOX        "Scales",IDC_STATIC,7,116,89,99
+    CONTROL         "X",IDC_AUTO_X,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,11,
+                    138,21,10
+    CONTROL         "Y",IDC_AUTO_Y,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,39,
+                    138,21,10
+    CONTROL         "Z",IDC_AUTO_Z,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,67,
+                    138,21,10
+    EDITTEXT        IDC_MIN_X,24,161,29,14,ES_AUTOHSCROLL
+    LTEXT           "Autoscale",IDC_STATIC,14,127,32,8
+    EDITTEXT        IDC_MAX_X,59,161,29,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MIN_Y,24,178,29,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MIN_Z,24,195,29,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MAX_Z,59,195,29,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MAX_Y,59,178,29,14,ES_AUTOHSCROLL
+    LTEXT           "X",IDC_STATIC,14,163,8,8
+    LTEXT           "Min",IDC_STATIC,33,152,12,8
+    LTEXT           "Max",IDC_STATIC,55,152,14,8
+    LTEXT           "Y",IDC_STATIC,13,180,8,8
+    LTEXT           "Z",IDC_STATIC,13,196,8,8
+    DEFPUSHBUTTON   "Make",IDC_MAKE_SEL,10,233,34,14
+    DEFPUSHBUTTON   "Cancel",IDC_CANCEL_SEL,50,233,34,14
+    GROUPBOX        "Selection",IDC_SEL_FRAME,7,223,89,45
+    DEFPUSHBUTTON   "Zoom",IDC_ZOOM_SEL,50,250,34,14
+    PUSHBUTTON      "Load",IDC_LOAD,7,7,34,14
+    LTEXT           "count",IDC_STATIC,49,9,19,8
+    EDITTEXT        IDC_DAT_COUNT,72,7,24,14,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "Copy",IDC_COPY,62,276,34,14
+    LTEXT           "Back",IDC_STATIC,11,75,18,8
+    LTEXT           "Point",IDC_PT_COL_TXT,61,75,17,8
+    CONTROL         "",IDC_PT_COLOUR,"Button",BS_OWNERDRAW | WS_TABSTOP,84,
+                    75,12,8
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Scatter3D MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Scatter3D\0"
+            VALUE "LegalCopyright", "Copyright (C) 2001\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Scatter3D.EXE\0"
+            VALUE "ProductName", "Scatter3D Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_SCATTER3D_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 375
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 290
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\Scatter3D.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

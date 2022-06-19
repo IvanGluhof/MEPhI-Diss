@@ -1,0 +1,400 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Cluster Analisys</name>
+    </assembly>
+    <members>
+        <member name="T:Cluster_Analisys.MDS_Matrix">
+            <summary>
+            Interaction logic for MDS_Matrix.xaml
+            </summary>
+            <summary>
+            MDS_Matrix
+            </summary>
+        </member>
+        <member name="F:Cluster_Analisys.MDS_Matrix.id">
+            <summary>
+            Локальная для класса статическая переменная для определния id графика
+            </summary>
+        </member>
+        <member name="F:Cluster_Analisys.MDS_Matrix.file_name">
+            <summary>
+            Имя файла
+            </summary>
+        </member>
+        <member name="M:Cluster_Analisys.MDS_Matrix.InitializeDataGrid(System.Data.DataTable)">
+            <summary>
+            Инициализация данных в DataGrid
+            </summary>
+            <param name="excel_temp_data"></param>
+        </member>
+        <member name="M:Cluster_Analisys.MDS_Matrix.Build_Matrix">
+            <summary>
+            Построение основной матрицы при загрузки формы
+            </summary>
+        </member>
+        <member name="M:Cluster_Analisys.MDS_Matrix.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Cluster_Analisys.Tab_Workspace">
+            <summary>
+            Класс, содержащий логику взаимодействия для Tab_Workspace.xaml
+            Определяет структуру разметки на TabPage. Вся разметка в XAML документе
+            </summary>
+            <summary>
+            Класс, содержащий логику взаимодействия для Tab_Workspace.xaml
+            Определяет структуру разметки на TabPage. Вся разметка в XAML документе
+            </summary>
+            <summary>
+            Tab_Workspace
+            </summary>
+        </member>
+        <member name="F:Cluster_Analisys.Tab_Workspace.id">
+            <summary>
+            Локальная для класса статическая переменная для определния id графика
+            </summary>
+        </member>
+        <member name="F:Cluster_Analisys.Tab_Workspace.file_name">
+            <summary>
+            Имя файла
+            </summary>
+        </member>
+        <member name="M:Cluster_Analisys.Tab_Workspace.#ctor(System.Data.DataTable,System.String)">
+            <summary>
+            Конструктор - только в нём происходит инициализация всего
+            При вызове класса, ему автоматически передают данные из Excel
+            Далее эти данные остаются только в этом классе
+            </summary>
+            <param name="excel_temp_data"></param>
+            <param name="file"></param>
+        </member>
+        <member name="M:Cluster_Analisys.Tab_Workspace.InitializeDataGrid(System.Data.DataTable)">
+            <summary>
+            Инициализация данных в DataGrid
+            </summary>
+            <param name="excel_temp_data"></param>
+        </member>
+        <member name="M:Cluster_Analisys.Tab_Workspace.Build_Matrix">
+            <summary>
+            Построение основной матрицы при загрузки формы
+            </summary>
+        </member>
+        <member name="M:Cluster_Analisys.Tab_Workspace.Setup_Controls">
+            <summary>
+            Общий метод для настройки интерфейса
+            </summary>
+        </member>
+        <member name="M:Cluster_Analisys.Tab_Workspace.Load_MDS_Methods">
+            <summary>
+            Список методов MDS для ListBox
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Cluster_Analisys.Tab_Workspace.button_create_cluster_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Обработка кнопки для добавления кластера:
+            1. Получаем доступ к массиву выделенных точек из класса (описание внутри него)
+            2. Делаем реверс этого массива, т.к. точки нужно удалять с конца
+            3. Проходимся по всем графикам, как матричным, так и рабочим, и удаляем точки
+            4. Затем эти же точки добавляем в новый набор точек, кластеры
+            5. Из этого набора формируем/собираем кластер
+            !!!!------------------------!!!!ОПТИМИЗАЦИ(?) мб foreach!!!!------------------------!!!!
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Cluster_Analisys.Tab_Workspace.button_clear_selection_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Снятие выделения
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Cluster_Analisys.Tab_Workspace.Clear_Selection">
+            <summary>
+            Снятие выделения
+            </summary>
+        </member>
+        <member name="M:Cluster_Analisys.Tab_Workspace.button_show_coordinates_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Показать\скрыть координаты
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Cluster_Analisys.Tab_Workspace.button_mds_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Кнопка для многомерного шкалирования (MDS)
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Cluster_Analisys.Tab_Workspace.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Cluster_Analisys.Cluster">
+            <summary>
+            Кластер для отображения в списке кластеров
+            </summary>
+        </member>
+        <member name="P:Cluster_Analisys.Cluster.Title">
+            <summary>
+            Название кластера
+            </summary>
+        </member>
+        <member name="P:Cluster_Analisys.Cluster.Size">
+            <summary>
+            Размерность кластера
+            </summary>
+        </member>
+        <member name="T:Cluster_Analisys.Matrix_Model">
+            <summary>
+             Класс, представляющий график, который выводится в каждую из проекций матрицы
+             Содержит как настройку самих графиков, так и настройку манипуляций с ними
+            </summary>
+        </member>
+        <member name="T:Cluster_Analisys.Work_Model">
+            <summary>
+            Класс, представляющий график, который выводится выводится в рабочую область
+            </summary>
+        </member>
+        <member name="P:Cluster_Analisys.Work_Model.Selected_points">
+            <summary>
+            Позволяет получить доступ к списку индексов выделенных точек из самого класса
+            Дублирует список выделенных точек, чтобы этот можно было спокойно из
+            </summary>
+        </member>
+        <member name="T:Cluster_Analisys.Matrix_Cluster">
+            <summary>
+            Представляет класс для кластера, который будет визуально отображаться на матрице 2D проекций
+            </summary>
+        </member>
+        <member name="F:Cluster_Analisys.Matrix_Cluster.index">
+            <summary>
+            Индекс матричного кластера
+            </summary>
+        </member>
+        <member name="F:Cluster_Analisys.Matrix_Cluster.cluster_name">
+            <summary>
+            Название матричного кластера
+            </summary>
+        </member>
+        <member name="T:Cluster_Analisys.Work_Cluster">
+            <summary>
+            Представляет класс для кластера, который будет визуально отображаться на рабочей области
+            </summary>
+        </member>
+        <member name="F:Cluster_Analisys.Work_Cluster.index">
+            <summary>
+            Индекс рабочего кластера
+            </summary>
+        </member>
+        <member name="F:Cluster_Analisys.Work_Cluster.cluster_name">
+            <summary>
+            Название рабочего кластера
+            </summary>
+        </member>
+        <member name="T:Cluster_Analisys.ColorPickerDialog">
+            <summary>
+            Логика для окна выбора цвета для кластера
+            Возможно ещё настройка кластера (форма, размер)
+            </summary>
+            <summary>
+            ColorPickerDialog
+            </summary>
+        </member>
+        <member name="P:Cluster_Analisys.ColorPickerDialog.Selected_color">
+            <summary>
+            Выбранный цвет
+            </summary>
+        </member>
+        <member name="P:Cluster_Analisys.ColorPickerDialog.Marker_type">
+            <summary>
+            Выбранный тип маркера
+            </summary>
+        </member>
+        <member name="M:Cluster_Analisys.ColorPickerDialog.LoadListBoxData">
+            <summary>
+            Список для ListBox
+            </summary>
+            <returns>Данные для ListBox'a</returns>
+        </member>
+        <member name="M:Cluster_Analisys.ColorPickerDialog.Set_Default_Selection">
+            <summary>
+            Установка выбора по умолчанию
+            </summary>
+        </member>
+        <member name="M:Cluster_Analisys.ColorPickerDialog.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Cluster_Analisys.R_framework">
+            <summary>
+            Класс для работы с языком R
+            </summary>
+        </member>
+        <member name="M:Cluster_Analisys.R_framework.Initialize_R">
+            <summary>
+            Инициализация и настройка R.NET
+            </summary>
+        </member>
+        <member name="M:Cluster_Analisys.R_framework.Set_Paths">
+            <summary>
+            Установка путей для R
+            </summary>
+        </member>
+        <member name="M:Cluster_Analisys.R_framework.Perform_MDS(System.Int32,System.String,System.String[])">
+            <summary>
+            Многомерное шкалировние с помощью языка R. Euclidean method
+            </summary>
+            <param name="k">Размерность (dimension)</param>
+            <param name="file_name">Входной файл</param>
+            <param name="header">Заголовок</param>
+        </member>
+        <member name="M:Cluster_Analisys.R_framework.Perform_MDS(System.Int32,System.Double,System.String,System.String[])">
+            <summary>
+            Многомерное шкалировние с помощью языка R. Minkowski method
+            </summary>
+            <param name="k">Размерность (dimension)</param>
+            <param name="p">Power of method</param>
+            <param name="file_name">Входной файл</param>
+            <param name="header">Заголовок</param>
+            <returns></returns>
+        </member>
+        <member name="M:Cluster_Analisys.R_framework.Perform_NM_MDS(System.Int32,System.String,System.String[])">
+            <summary>
+            Неметрическое многомерное шкалировние - метод Крускала
+            </summary>
+            <param name="k"></param>
+            <param name="file_name"></param>
+            <param name="header"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Cluster_Analisys.R_framework.Perform_NM_MDS(System.Int32,System.Double,System.String,System.String[])">
+            <summary>
+            Неметрическое многомерное шкалировние - метод Саммона
+            </summary>
+            <param name="k"></param>
+            <param name="p"></param>
+            <param name="file_name"></param>
+            <param name="header"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Cluster_Analisys.Tab_MDS">
+            <summary>
+            Interaction logic for Tab_MDS.xaml
+            </summary>
+            <summary>
+            Tab_MDS
+            </summary>
+        </member>
+        <member name="M:Cluster_Analisys.Tab_MDS.#ctor(System.String,System.String,System.Int32)">
+            <summary>
+            Конструктор - Метод Евклидовый
+            </summary>
+            <param name="file_value">Файл</param>
+            <param name="selection_value">Метод</param>
+            <param name="k_dim_value">Размерность</param>
+        </member>
+        <member name="M:Cluster_Analisys.Tab_MDS.#ctor(System.String,System.String,System.Int32,System.Double)">
+            <summary>
+            Конструктор - Метод Минковского
+            </summary>
+            <param name="file_value">Файл</param>
+            <param name="selection_value">Метод</param>
+            <param name="k_dim_value">Размерность</param>
+            <param name="p_value">Сила P</param>
+        </member>
+        <member name="M:Cluster_Analisys.Tab_MDS.BuildMatrix(System.String,System.String,System.Int32)">
+            <summary>
+            Построение матрицы "Евклидовый"
+            </summary>
+            <param name="method"></param>
+            <param name="k_dim"></param>
+        </member>
+        <member name="M:Cluster_Analisys.Tab_MDS.BuildMatrix(System.String,System.String,System.Int32,System.Double)">
+            <summary>
+            Построение матрицы "Минковский"
+            </summary>
+            <param name="method"></param>
+            <param name="k_dim"></param>
+            <param name="p"></param>
+        </member>
+        <member name="M:Cluster_Analisys.Tab_MDS.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Cluster_Analisys.MainWindow">
+            <summary>
+            Логика взаимодействия для главной формы MainWindow.xaml
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:Cluster_Analisys.MainWindow.Exit_App(System.Object,System.ComponentModel.CancelEventArgs)">
+            <summary>
+            Выход 1
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Cluster_Analisys.MainWindow.Exit_App(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Выход 2
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Cluster_Analisys.MainWindow.#ctor">
+            <summary>
+            Конструктор для главной формы
+            </summary>
+        </member>
+        <member name="M:Cluster_Analisys.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Cluster_Analisys.App">
+            <summary>
+            Interaction logic for App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:Cluster_Analisys.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:Cluster_Analisys.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:Cluster_Analisys.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Cluster_Analisys.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Cluster_Analisys.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

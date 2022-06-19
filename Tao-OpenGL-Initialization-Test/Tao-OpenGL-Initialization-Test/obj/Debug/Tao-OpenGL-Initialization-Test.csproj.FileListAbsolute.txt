@@ -1,0 +1,9 @@
+E:\MVS\C#\Test\Tao-OpenGL-Initialization-Test\Tao-OpenGL-Initialization-Test\bin\Debug\Tao-OpenGL-Initialization-Test.exe.config
+E:\MVS\C#\Test\Tao-OpenGL-Initialization-Test\Tao-OpenGL-Initialization-Test\bin\Debug\Tao-OpenGL-Initialization-Test.exe
+E:\MVS\C#\Test\Tao-OpenGL-Initialization-Test\Tao-OpenGL-Initialization-Test\bin\Debug\Tao-OpenGL-Initialization-Test.pdb
+E:\MVS\C#\Test\Tao-OpenGL-Initialization-Test\Tao-OpenGL-Initialization-Test\obj\Debug\Tao-OpenGL-Initialization-Test.csprojResolveAssemblyReference.cache
+E:\MVS\C#\Test\Tao-OpenGL-Initialization-Test\Tao-OpenGL-Initialization-Test\obj\Debug\Tao_OpenGL_Initialization_Test.Form1.resources
+E:\MVS\C#\Test\Tao-OpenGL-Initialization-Test\Tao-OpenGL-Initialization-Test\obj\Debug\Tao_OpenGL_Initialization_Test.Properties.Resources.resources
+E:\MVS\C#\Test\Tao-OpenGL-Initialization-Test\Tao-OpenGL-Initialization-Test\obj\Debug\Tao-OpenGL-Initialization-Test.csproj.GenerateResource.Cache
+E:\MVS\C#\Test\Tao-OpenGL-Initialization-Test\Tao-OpenGL-Initialization-Test\obj\Debug\Tao-OpenGL-Initialization-Test.exe
+E:\MVS\C#\Test\Tao-OpenGL-Initialization-Test\Tao-OpenGL-Initialization-Test\obj\Debug\Tao-OpenGL-Initialization-Test.pdb

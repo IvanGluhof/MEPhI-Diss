@@ -1,0 +1,15 @@
+E:\Visual Studio Projects\C#\Testing\RNET_Calculator\RNET_Calculator\bin\Debug\RNET_Calculator.exe.config
+E:\Visual Studio Projects\C#\Testing\RNET_Calculator\RNET_Calculator\bin\Debug\RNET_Calculator.exe
+E:\Visual Studio Projects\C#\Testing\RNET_Calculator\RNET_Calculator\bin\Debug\RNET_Calculator.pdb
+E:\Visual Studio Projects\C#\Testing\RNET_Calculator\RNET_Calculator\bin\Debug\DynamicInterop.dll
+E:\Visual Studio Projects\C#\Testing\RNET_Calculator\RNET_Calculator\bin\Debug\RDotNet.dll
+E:\Visual Studio Projects\C#\Testing\RNET_Calculator\RNET_Calculator\bin\Debug\RDotNet.NativeLibrary.dll
+E:\Visual Studio Projects\C#\Testing\RNET_Calculator\RNET_Calculator\bin\Debug\DynamicInterop.xml
+E:\Visual Studio Projects\C#\Testing\RNET_Calculator\RNET_Calculator\bin\Debug\RDotNet.xml
+E:\Visual Studio Projects\C#\Testing\RNET_Calculator\RNET_Calculator\bin\Debug\RDotNet.NativeLibrary.xml
+E:\Visual Studio Projects\C#\Testing\RNET_Calculator\RNET_Calculator\obj\Debug\RNET_Calculator.csprojResolveAssemblyReference.cache
+E:\Visual Studio Projects\C#\Testing\RNET_Calculator\RNET_Calculator\obj\Debug\RNET_Calculator.RNET_Calculator.resources
+E:\Visual Studio Projects\C#\Testing\RNET_Calculator\RNET_Calculator\obj\Debug\RNET_Calculator.Properties.Resources.resources
+E:\Visual Studio Projects\C#\Testing\RNET_Calculator\RNET_Calculator\obj\Debug\RNET_Calculator.csproj.GenerateResource.Cache
+E:\Visual Studio Projects\C#\Testing\RNET_Calculator\RNET_Calculator\obj\Debug\RNET_Calculator.exe
+E:\Visual Studio Projects\C#\Testing\RNET_Calculator\RNET_Calculator\obj\Debug\RNET_Calculator.pdb

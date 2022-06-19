@@ -1,0 +1,16 @@
+E:\MVS\C#\Test\Cluster_Viz\Cluster_Viz\bin\Debug\Cluster_Viz.exe.config
+E:\MVS\C#\Test\Cluster_Viz\Cluster_Viz\bin\Debug\Cluster_Viz.exe
+E:\MVS\C#\Test\Cluster_Viz\Cluster_Viz\bin\Debug\Cluster_Viz.pdb
+E:\MVS\C#\Test\Cluster_Viz\Cluster_Viz\obj\Debug\Cluster_Viz.csprojResolveAssemblyReference.cache
+E:\MVS\C#\Test\Cluster_Viz\Cluster_Viz\obj\Debug\Cluster_Viz.csproj.ResolveComReference.cache
+E:\MVS\C#\Test\Cluster_Viz\Cluster_Viz\obj\Debug\Cluster_Viz.Properties.Resources.resources
+E:\MVS\C#\Test\Cluster_Viz\Cluster_Viz\obj\Debug\Cluster_Viz.csproj.GenerateResource.Cache
+E:\MVS\C#\Test\Cluster_Viz\Cluster_Viz\obj\Debug\Cluster_Viz.exe
+E:\MVS\C#\Test\Cluster_Viz\Cluster_Viz\obj\Debug\Cluster_Viz.pdb
+E:\MVS\C#\Test\Cluster_Viz\Cluster_Viz\bin\Debug\OxyPlot.dll
+E:\MVS\C#\Test\Cluster_Viz\Cluster_Viz\bin\Debug\OxyPlot.WindowsForms.dll
+E:\MVS\C#\Test\Cluster_Viz\Cluster_Viz\bin\Debug\OxyPlot.pdb
+E:\MVS\C#\Test\Cluster_Viz\Cluster_Viz\bin\Debug\OxyPlot.xml
+E:\MVS\C#\Test\Cluster_Viz\Cluster_Viz\bin\Debug\OxyPlot.WindowsForms.pdb
+E:\MVS\C#\Test\Cluster_Viz\Cluster_Viz\bin\Debug\OxyPlot.WindowsForms.xml
+E:\MVS\C#\Test\Cluster_Viz\Cluster_Viz\obj\Debug\Cluster_Viz.main_form.resources

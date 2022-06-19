@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Cluster_Analisys.MainWindow">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAEAAARAAAAAQIAAAAAABAAAAAAQAAAAA=</HashCode>
+      <FileName>1_1.MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Cluster_Analisys.Tab_Workspace">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQIAEAABBAAAAAAAAGAQBAAgQAEAAIAQGAgAAEgABgI=</HashCode>
+      <FileName>1_2.TabWorkspace.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Cluster_Analisys.Matrix_Model">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhBAA=</HashCode>
+      <FileName>Classes\1_ModelClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cluster_Analisys.Work_Model">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAEAAAAAAABBAA=</HashCode>
+      <FileName>Classes\1_ModelClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cluster_Analisys.Matrix_Cluster">
+    <Position X="6.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Classes\2_ClusterClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cluster_Analisys.Work_Cluster">
+    <Position X="4.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Classes\2_ClusterClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cluster_Analisys.Matrix_Builder">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAACAABAAAAAAIAAAAAAAAAAIAEAAEAAAAAAAI=</HashCode>
+      <FileName>Classes\3_Matrix_Builder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cluster_Analisys.R_framework">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAACAgAAAACAAAAAiQAAAgAAABAAAAAAgEEAAAAA=</HashCode>
+      <FileName>Classes\6_R_framework.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Window" Collapsed="true">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.Controls.UserControl" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="OxyPlot.PlotModel" Collapsed="true">
+    <Position X="4.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OxyPlot.Series.ScatterSeries" Collapsed="true">
+    <Position X="6.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="9.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

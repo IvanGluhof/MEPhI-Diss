@@ -1,0 +1,10 @@
+E:\Visual Studio Projects\C#\1_Main\ClusterAnalysis_WPF\ConverterLibrary\bin\Debug\ConverterLibrary.dll
+E:\Visual Studio Projects\C#\1_Main\ClusterAnalysis_WPF\ConverterLibrary\bin\Debug\ConverterLibrary.pdb
+E:\Visual Studio Projects\C#\1_Main\ClusterAnalysis_WPF\ConverterLibrary\bin\Debug\OxyPlot.dll
+E:\Visual Studio Projects\C#\1_Main\ClusterAnalysis_WPF\ConverterLibrary\bin\Debug\OxyPlot.Wpf.dll
+E:\Visual Studio Projects\C#\1_Main\ClusterAnalysis_WPF\ConverterLibrary\bin\Debug\OxyPlot.pdb
+E:\Visual Studio Projects\C#\1_Main\ClusterAnalysis_WPF\ConverterLibrary\bin\Debug\OxyPlot.xml
+E:\Visual Studio Projects\C#\1_Main\ClusterAnalysis_WPF\ConverterLibrary\bin\Debug\OxyPlot.Wpf.pdb
+E:\Visual Studio Projects\C#\1_Main\ClusterAnalysis_WPF\ConverterLibrary\bin\Debug\OxyPlot.Wpf.xml
+E:\Visual Studio Projects\C#\1_Main\ClusterAnalysis_WPF\ConverterLibrary\obj\Debug\ConverterLibrary.dll
+E:\Visual Studio Projects\C#\1_Main\ClusterAnalysis_WPF\ConverterLibrary\obj\Debug\ConverterLibrary.pdb

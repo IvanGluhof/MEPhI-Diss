@@ -1,0 +1,46 @@
+E:\Visual Studio Projects\C#\ClusterAnalysis_WPF\Cluster Analisys\bin\Release\Cluster Analisys.exe.config
+E:\Visual Studio Projects\C#\ClusterAnalysis_WPF\Cluster Analisys\obj\Release\Cluster Analisys WPF.csproj.ResolveComReference.cache
+E:\Visual Studio Projects\C#\ClusterAnalysis_WPF\Cluster Analisys\bin\Release\Cluster Analisys.exe
+E:\Visual Studio Projects\C#\ClusterAnalysis_WPF\Cluster Analisys\bin\Release\Cluster Analisys.pdb
+E:\Visual Studio Projects\C#\ClusterAnalysis_WPF\Cluster Analisys\bin\Release\DynamicInterop.dll
+E:\Visual Studio Projects\C#\ClusterAnalysis_WPF\Cluster Analisys\bin\Release\OxyPlot.dll
+E:\Visual Studio Projects\C#\ClusterAnalysis_WPF\Cluster Analisys\bin\Release\OxyPlot.Wpf.dll
+E:\Visual Studio Projects\C#\ClusterAnalysis_WPF\Cluster Analisys\bin\Release\RDotNet.dll
+E:\Visual Studio Projects\C#\ClusterAnalysis_WPF\Cluster Analisys\bin\Release\RDotNet.NativeLibrary.dll
+E:\Visual Studio Projects\C#\ClusterAnalysis_WPF\Cluster Analisys\bin\Release\Xceed.Wpf.AvalonDock.dll
+E:\Visual Studio Projects\C#\ClusterAnalysis_WPF\Cluster Analisys\bin\Release\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+E:\Visual Studio Projects\C#\ClusterAnalysis_WPF\Cluster Analisys\bin\Release\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+E:\Visual Studio Projects\C#\ClusterAnalysis_WPF\Cluster Analisys\bin\Release\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+E:\Visual Studio Projects\C#\ClusterAnalysis_WPF\Cluster Analisys\bin\Release\Xceed.Wpf.DataGrid.dll
+E:\Visual Studio Projects\C#\ClusterAnalysis_WPF\Cluster Analisys\bin\Release\Xceed.Wpf.Toolkit.dll
+E:\Visual Studio Projects\C#\ClusterAnalysis_WPF\Cluster Analisys\bin\Release\DynamicInterop.xml
+E:\Visual Studio Projects\C#\ClusterAnalysis_WPF\Cluster Analisys\bin\Release\OxyPlot.pdb
+E:\Visual Studio Projects\C#\ClusterAnalysis_WPF\Cluster Analisys\bin\Release\OxyPlot.xml
+E:\Visual Studio Projects\C#\ClusterAnalysis_WPF\Cluster Analisys\bin\Release\OxyPlot.Wpf.pdb
+E:\Visual Studio Projects\C#\ClusterAnalysis_WPF\Cluster Analisys\bin\Release\OxyPlot.Wpf.xml
+E:\Visual Studio Projects\C#\ClusterAnalysis_WPF\Cluster Analisys\bin\Release\RDotNet.xml
+E:\Visual Studio Projects\C#\ClusterAnalysis_WPF\Cluster Analisys\bin\Release\RDotNet.NativeLibrary.xml
+E:\Visual Studio Projects\C#\ClusterAnalysis_WPF\Cluster Analisys\bin\Release\de\Xceed.Wpf.AvalonDock.resources.dll
+E:\Visual Studio Projects\C#\ClusterAnalysis_WPF\Cluster Analisys\bin\Release\es\Xceed.Wpf.AvalonDock.resources.dll
+E:\Visual Studio Projects\C#\ClusterAnalysis_WPF\Cluster Analisys\bin\Release\fr\Xceed.Wpf.AvalonDock.resources.dll
+E:\Visual Studio Projects\C#\ClusterAnalysis_WPF\Cluster Analisys\bin\Release\hu\Xceed.Wpf.AvalonDock.resources.dll
+E:\Visual Studio Projects\C#\ClusterAnalysis_WPF\Cluster Analisys\bin\Release\it\Xceed.Wpf.AvalonDock.resources.dll
+E:\Visual Studio Projects\C#\ClusterAnalysis_WPF\Cluster Analisys\bin\Release\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+E:\Visual Studio Projects\C#\ClusterAnalysis_WPF\Cluster Analisys\bin\Release\ro\Xceed.Wpf.AvalonDock.resources.dll
+E:\Visual Studio Projects\C#\ClusterAnalysis_WPF\Cluster Analisys\bin\Release\ru\Xceed.Wpf.AvalonDock.resources.dll
+E:\Visual Studio Projects\C#\ClusterAnalysis_WPF\Cluster Analisys\bin\Release\sv\Xceed.Wpf.AvalonDock.resources.dll
+E:\Visual Studio Projects\C#\ClusterAnalysis_WPF\Cluster Analisys\bin\Release\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+E:\Visual Studio Projects\C#\ClusterAnalysis_WPF\Cluster Analisys\obj\Release\1_1.MainWindow.baml
+E:\Visual Studio Projects\C#\ClusterAnalysis_WPF\Cluster Analisys\obj\Release\1_2.TabWorkspace.baml
+E:\Visual Studio Projects\C#\ClusterAnalysis_WPF\Cluster Analisys\obj\Release\ColorPickerDialog.baml
+E:\Visual Studio Projects\C#\ClusterAnalysis_WPF\Cluster Analisys\obj\Release\1_1.MainWindow.g.cs
+E:\Visual Studio Projects\C#\ClusterAnalysis_WPF\Cluster Analisys\obj\Release\1_2.TabWorkspace.g.cs
+E:\Visual Studio Projects\C#\ClusterAnalysis_WPF\Cluster Analisys\obj\Release\ColorPickerDialog.g.cs
+E:\Visual Studio Projects\C#\ClusterAnalysis_WPF\Cluster Analisys\obj\Release\App\App.g.cs
+E:\Visual Studio Projects\C#\ClusterAnalysis_WPF\Cluster Analisys\obj\Release\Cluster Analisys_MarkupCompile.cache
+E:\Visual Studio Projects\C#\ClusterAnalysis_WPF\Cluster Analisys\obj\Release\Cluster Analisys.g.resources
+E:\Visual Studio Projects\C#\ClusterAnalysis_WPF\Cluster Analisys\obj\Release\Cluster_Analisys.Properties.Resources.resources
+E:\Visual Studio Projects\C#\ClusterAnalysis_WPF\Cluster Analisys\obj\Release\Cluster Analisys WPF.csproj.GenerateResource.Cache
+E:\Visual Studio Projects\C#\ClusterAnalysis_WPF\Cluster Analisys\obj\Release\Cluster Analisys.exe
+E:\Visual Studio Projects\C#\ClusterAnalysis_WPF\Cluster Analisys\obj\Release\Cluster Analisys.pdb
+E:\Visual Studio Projects\C#\ClusterAnalysis_WPF\Cluster Analisys\obj\Release\Cluster Analisys WPF.csprojResolveAssemblyReference.cache
